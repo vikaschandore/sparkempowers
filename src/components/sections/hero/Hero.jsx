@@ -27,7 +27,7 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="hero-content">
                 <span className="hero-tagline text-teal">
-                  IT solutions for the new era - TEST2
+                  IT solutions for the new era - TEST3
                 </span>
                 <h1 className="hero-title text-white">
                   Beautiful IT services for your success
