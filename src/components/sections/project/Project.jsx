@@ -12,8 +12,8 @@ export default function Project() {
         <div className="row">
           <div className="col-lg-6">
             <div className="sec-content">
-              <h6 className="sec-sub-title">Latest Project</h6>
-              <h2 className="sec-title">Let’s Looks Our Global Projects</h2>
+              <h6 className="sec-sub-title">Latest Projects</h6>
+              <h2 className="sec-title">Engineering Digital Success Across the Globe</h2>
             </div>
           </div>
         </div>

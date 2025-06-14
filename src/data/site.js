@@ -2,27 +2,21 @@ export const services = [
     {
         icon: "flaticon-software-development",
         title: "Software Development",
-        brief: "Indeed vanity excuse or mr lovers of on.",
+        brief: "Custom software designed to solve real problems.",
         url: "/service-details"
     },
     {
         icon: "flaticon-dashboard",
-        title: "Data Analysis",
-        brief: "Indeed vanity excuse or mr lovers of on.",
+        title: "E-Commerce Website",
+        brief: "Sell smarter with powerful online stores.",
         url: "/service-details"
     },
     {
         icon: "flaticon-app-development",
         title: "App Development",
-        brief: "Indeed vanity excuse or mr lovers of on.",
+        brief: "Mobile apps that engage and perform.",
         url: "/service-details"
-    },
-    {
-        icon: "flaticon-software-development",
-        title: "Software Development",
-        brief: "Indeed vanity excuse or mr lovers of on.",
-        url: "/service-details"
-    },
+    }
 ];
 
 export const services_2 = [

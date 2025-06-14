@@ -18,9 +18,8 @@ export default function HomePage() {
       <Service />
       <Newslatter />
       <Project />
-      <Business />
       <CompanyInfo />
-      <Pricing />
+      <Business />
       <Brand />
       <Testimonial />
       <LatestBlog bg_color="bg-light-greem" />

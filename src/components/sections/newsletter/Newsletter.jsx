@@ -31,10 +31,9 @@ export default function Newslatter() {
             </div>
             <div className="col-lg-5 d-flex align-items-center">
               <div className="sec-content">
-                <h2 className="sec-title">Subscribe to Our Newsletter</h2>
+                <h2 className="sec-title">Want Smarter Solutions in Your Inbox?</h2>
                 <p className="sec-text">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  Get insider content, new service launches, and industry news. Be the first to know.
                 </p>
                 <div className="Subscribe-form d-sm-flex">
                   <input

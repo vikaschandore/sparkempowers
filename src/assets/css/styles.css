@@ -737,7 +737,7 @@ label {
   margin-right: 3%;
 }
 .hero-content .hero-tagline {
-  color: var(--thm-teal);
+  color: #ffffff;
   font-weight: 500;
   margin-bottom: 14px;
 }
@@ -1760,15 +1760,18 @@ label {
 .single-pricing .pricing-content {
   padding: 40px 50px 50px;
 }
-.single-pricing .pricing-content ul.pricing-list li {
+.our-latest-services .sec-btn{
+  margin-top: 30px;
+}
+.single-pricing .pricing-content ul.pricing-list li, .our-latest-services li {
   position: relative;
   margin-bottom: 12px;
   padding-left: 28px;
 }
-.single-pricing .pricing-content ul.pricing-list li:last-child {
+.single-pricing .pricing-content ul.pricing-list li:last-child, .our-latest-services li:last-child{
   margin-bottom: 0;
 }
-.single-pricing .pricing-content ul.pricing-list li::before {
+.single-pricing .pricing-content ul.pricing-list li::before,.our-latest-services li::before {
   content: "";
   background: url(/images/logo/checked.svg);
   background-repeat: no-repeat;

@@ -37,27 +37,35 @@ export default function About() {
             data-wow-duration="1500ms"
           >
             <div className="sec-content">
-              <h6 className="sec-sub-title">About Your Company</h6>
+              <h6 className="sec-sub-title">About Us</h6>
               <h2 className="sec-title">
-                We Execute Our ideas From The Start to Finish
+                Turning Ideas into Scalable Digital Solutions
               </h2>
               <p className="sec-text">
-                Solve Business Problems And Automate Workflows With Artificial
-                Work Intelligence-Based Solutions. Unlock The Hidden Power Of
-                The Data You Already Have And Hand Hampers The Creativity.
+                We specialize in building custom IT and web development solutions that streamline 
+                operations, solve complex business challenges, and unlock new growth opportunities. 
+                From concept to execution, we partner with you at every stage of the digital journey.
               </p>
               <ul className="sec-list-item">
                 <li>
                   <i className="fa-solid fa-square-check" />
-                  Development of Financial Models
+                  Custom Website Design & Development
                 </li>
                 <li>
                   <i className="fa-solid fa-square-check" />
-                  Nifty team is a diverse network of consultants
+                  E-Commerce Development
                 </li>
                 <li>
                   <i className="fa-solid fa-square-check" />
-                  Industry professionals with a global mindset
+                  Artificial Intelligence and Automation
+                </li>
+                <li>
+                  <i className="fa-solid fa-square-check" />
+                  Web Applications & Portals
+                </li>
+                <li>
+                  <i className="fa-solid fa-square-check" />
+                  API & Third-Party Integrations
                 </li>
               </ul>
               <div className="sec-btn">
