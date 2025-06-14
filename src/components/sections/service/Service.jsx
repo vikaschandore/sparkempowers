@@ -3,7 +3,7 @@ import { services } from "../../../data/site";
 
 export default function Service() {
   return (
-    <section className="service-sec bg-light-greem sec-ptb">
+    <section className="service-sec bg-light-greem sec-ptb our-latest-services">
       <div className="container">
         <div className="row">
           <div
@@ -12,16 +12,24 @@ export default function Service() {
             data-wow-duration="1500ms"
           >
             <div className="sec-content">
-              <h6 className="sec-sub-title">Our latest services</h6>
+              <h6 className="sec-sub-title">Our Latest Services</h6>
               <h2 className="sec-title">
-                Our clients are the best at IT Management
+                From Idea to Impact
               </h2>
               <p className="sec-text">
-                Our Custom Software Design And Development Teams Can Design,
-                Build, Test, And Deliver A Product That Fits Both Your Vision
-                And With Market Demand. With Our Support, You Will Find
-                Customers, Build Income And Attract New Investors.
+                We design, develop, and deliver tailored software solutions that align with your 
+                business goals and meet real market demand. Whether you're launching a new product 
+                or improving an existing one, our expert team handles everything from architecture 
+                to testing—with scalability, performance, and user experience in mind. 
+                With our strategic support, you’ll:
               </p>
+              <div>
+                <ul>
+                  <li>Reach the right customers</li>
+                  <li>Generate consistent revenue</li>
+                  <li>Attract meaningful investment</li>
+                </ul>
+              </div>
               <div className="sec-btn">
                 <Link to="/services" className="thm-btn">
                   <span className="txt">View All Services</span>

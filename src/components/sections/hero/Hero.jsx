@@ -27,14 +27,13 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="hero-content">
                 <span className="hero-tagline text-teal">
-                  IT solutions for the new era - TEST4
+                  Smart IT Solutions & Scalable Web Development
                 </span>
                 <h1 className="hero-title text-white">
-                  Beautiful IT services for your success
+                  Let’s build the <br/>future together
                 </h1>
                 <p className="text-white">
-                  Leverage agile frameworks to provide a robust synopsis for
-                  high level overviews terative approaches bring table survival.
+                  We build powerful, secure, and user-centric digital <br/>experiences—designed to grow with your business.
                 </p>
                 <div className="hero-btn-area d-flex align-items-center">
                   <Link to="/about" className="thm-btn">
@@ -54,7 +53,7 @@ export default function Hero() {
                     ))}
                   </div>
                   <div className="total-team-count">
-                    <span>10+</span>
+                    <span>8+</span>
                     <p>Team Members</p>
                   </div>
                 </div>

@@ -3,11 +3,11 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const progress_data = [
   {
     title: "Productivity",
-    completed: 80,
+    completed: 85,
   },
   {
     title: "Digital Marketing",
-    completed: 75,
+    completed: 80,
   },
   {
     title: "Technology",
@@ -22,14 +22,15 @@ export default function Business() {
         <div className="row">
           <div className="col-lg-6">
             <div className="sec-content h-100 d-flex justify-content-center flex-column">
-              <h6 className="sec-sub-title">Buisness Process</h6>
+              <h6 className="sec-sub-title">Business Process Optimization</h6>
               <h2 className="sec-title">
-                Easy Way Build Success your Buisness Pla
+                Streamline. Scale. Succeed.
               </h2>
               <p className="sec-text">
-                Solve Business Problems And Automate Workflows With Artificial
-                Intelligence-Based Solutions. Unlock The Hidden Power Of The
-                Data You Already Have And Hand.
+                We help you simplify complex business operations and drive growth with intelligent, 
+                automation-ready solutions. Our AI-powered systems improve efficiency, reduce manual 
+                effort, and unlock the full value of your existing data—so you can focus on what 
+                matters most: growing your business.
               </p>
               {/* progressbar part start */}{" "}
               {progress_data?.map((item, i) => (
