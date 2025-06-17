@@ -8,7 +8,7 @@ export default function ServiceStyle2({ data }) {
           <div className="offset-lg-3 col-lg-6">
             <div className="sec-content text-center mb-5">
               <h6 className="sec-sub-title">What We Do</h6>
-              <h2 className="sec-title">Services That Help You Grow</h2>
+              <h2 className="sec-title">Growth-Driven Services for Modern Brands</h2>
             </div>
           </div>
         </div>
