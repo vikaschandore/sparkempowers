@@ -25,8 +25,7 @@ export default function ServicesPage() {
       <BreadCrumb data={breadcumb_data} />
       <ServiceStyle2 data={services} />
       <Newslatter />
-      <Pricing />
-      <NewslatterStyle3 />
+      {/* <NewslatterStyle3 /> */}
     </>
   );
 }
