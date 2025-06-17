@@ -52,10 +52,10 @@ export default function Project() {
                       </div>
                       <div className="project-title">
                         <h5>
-                          <Link to="/project-details">{item.title}</Link>
+                          <Link to={item.path}>{item.title}</Link>
                         </h5>
                         <span className="project-cat">{item.category}</span>
-                        <Link to="/project-details" className="project-btn">
+                        <Link to={item.path} className="project-btn">
                           <i className="flaticon-right-arrow" />
                         </Link>
                       </div>

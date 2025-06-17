@@ -58,7 +58,7 @@ export default function Business() {
             >
               <div className="sec-img-one">
                 <img
-                  src="/images/about/about03.png"
+                  src="/images/about/Business-Process-Optimization.jpg"
                   alt="about-img"
                   className="h-100"
                 />

@@ -2,16 +2,18 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const brands = [
-  "/images/brand/brand1.png",
-  "/images/brand/brand2.png",
-  "/images/brand/brand3.png",
-  "/images/brand/brand4.png",
-  "/images/brand/brand5.png",
-  "/images/brand/brand1.png",
-  "/images/brand/brand2.png",
-  "/images/brand/brand3.png",
-  "/images/brand/brand4.png",
-  "/images/brand/brand5.png",
+  "/images/brand/WellWalla_developed_by_Spark_Empowers.png",
+  "/images/brand/Sunirm_Digital_Technology_developed_by_Spark_Empowers.png",
+  "/images/brand/Rakesh_Kurra_developed_by_Spark_Empowers.png",
+  "/images/brand/Hulara_developed_by_Spark_Empowers.png",
+  "/images/brand/Keyfalcon_Solutions_developed_by_Spark_Empowers.png",
+  "/images/brand/The_Shunya_Foundation_developed_by_Spark_Empowers.png",
+  "/images/brand/WellWalla_developed_by_Spark_Empowers.png",
+  "/images/brand/Sunirm_Digital_Technology_developed_by_Spark_Empowers.png",
+  "/images/brand/Rakesh_Kurra_developed_by_Spark_Empowers.png",
+  "/images/brand/Hulara_developed_by_Spark_Empowers.png",
+  "/images/brand/Keyfalcon_Solutions_developed_by_Spark_Empowers.png",
+  "/images/brand/The_Shunya_Foundation_developed_by_Spark_Empowers.png",
 ];
 
 export default function Brand() {
@@ -45,7 +47,7 @@ export default function Brand() {
                     slidesPerView: 4,
                   },
                   1200: {
-                    slidesPerView: 5,
+                    slidesPerView: 6,
                   },
                 }}
               >
