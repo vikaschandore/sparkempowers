@@ -19,23 +19,27 @@ export const social_links = [
 
 export const service_links = [
     {
-        name: "Tech Solutions",
+        name: "Web & CMS Development",
         url: "/service-details",
     },
     {
-        name: " Digital Marketing",
+        name: "Mobile App Development",
         url: "/service-details",
     },
     {
-        name: "Web Development",
+        name: "Digital Marketing",
         url: "/service-details",
     },
     {
-        name: "IT Consulting",
+        name: "e-Commerce Development",
         url: "/service-details",
     },
     {
-        name: "Data Analytics",
+        name: "Virtual Assistance",
+        url: "/service-details",
+    },
+    {
+        name: "Graphics & Motion Design",
         url: "/service-details",
     },
 ];

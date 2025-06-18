@@ -26,9 +26,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-widget-content">
                   <p className="ft-text">
-                    Mauris ut enim sit amet lacus ornare ullamcor. Praesent
-                    placerat nequ puru rhoncu tincidunt odio ultrices. Sed odio
-                    feugiat feugiat felis.
+                    At Spark Empowers, we are dedicated to delivering smart, scalable, and reliable software solutions. Whether you’re looking to grow, streamline, or innovate—we’ve got you covered.
                   </p>
                   <div className="footer-social">
                     <div className="footer-social-icon d-flex">
