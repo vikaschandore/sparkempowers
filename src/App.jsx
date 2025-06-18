@@ -20,6 +20,7 @@ import ServiceDetailsPage from "./pages/ServiceDetails/ServiceDetailsPage";
 import TeamPage from "./pages/Team/TeamPage";
 import TeamDetailsPage from "./pages/TeamDetails/TeamDetailsPage";
 import TestimonialsPage from "./pages/Testimonials/TestimonialsPage";
+import ShanyaScansDetailsPage from "./pages/ProjectDetails/ShanyaScansDetailsPage";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/team-details" element={<TeamDetailsPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/project-details" element={<ProjectDetailsPage />} />
+          <Route path="/shanya-scans" element={<ShanyaScansDetailsPage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/price-plan" element={<PricePlanPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
