@@ -251,7 +251,7 @@ export const testimonials = [
 export const testimonials_2 = [
     {
         description: `“Iqbal is fantastic, he understood our requirements in no time and delivered results right on our expectations. He was supportive all through the engagement.”`,
-        name: "Joshua Liddell",
+        name: "Emily Carter",
         title: "Company Owner",
         imgUrl: "/images/testimonial/tc1.png",
     },
