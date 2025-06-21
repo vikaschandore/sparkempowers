@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const headerList = [
   {
     icon: "flaticon-maps-and-flags",
-    name: "Indore, Madhya Pradesh, India",
+    name: "Pune, Maharashtra, India",
   },
   {
     icon: "flaticon-gmail-logo",
