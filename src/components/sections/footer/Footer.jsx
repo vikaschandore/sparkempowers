@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="section-overlay sec-pt">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 col-xl-3">
+            <div className="col-sm-6 col-xl-4">
               <div className="footer-widget">
                 <div className="footer-widget-logo">
                   <Link to="/">
@@ -42,7 +42,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 offset-xl-1 col-xl-2">
+            <div className="col-sm-6 offset-xl-1 col-xl-3">
               <div className="footer-widget">
                 <h4 className="footer-widget-title tx-white">Our Services</h4>
                 <div className="footer-widget-content">
@@ -60,7 +60,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 offset-xl-1 col-xl-2">
+            <div className="col-sm-6 offset-xl-1 col-xl-3">
               <div className="footer-widget pages-links">
                 <h4 className="footer-widget-title tx-white">Useful Links</h4>
                 <div className="footer-widget-content">
@@ -73,54 +73,6 @@ export default function Footer() {
                         </li>
                       ))}
                       {/* useful link part end */}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 col-xl-3">
-              <div className="footer-widget">
-                <h4 className="footer-widget-title tx-white">Recent Post</h4>
-                <div className="footer-widget-content">
-                  <div className="footer-recent-post">
-                    <ul>
-                      {/* recent blog part start */}
-                      {footer_blogs?.map((item, i) => (
-                        <li
-                          key={i}
-                          className="blog-sidebar-box-item blog-item d-flex"
-                        >
-                          <div className="img-box">
-                            <Link to={item.url}>
-                              <img
-                                src={item.imgUrl}
-                                alt="blog"
-                                className="h-100"
-                              />
-                            </Link>
-                          </div>
-                          <div className="content-box">
-                            <div className="meta-box">
-                              <ul className="meta-info">
-                                <li>
-                                  <div className="icon">
-                                    <i className="flaticon-calendar" />
-                                  </div>
-                                  <span>
-                                    <Link to="/">Dec 27, 2023</Link>
-                                  </span>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="title-box">
-                              <h3>
-                                <Link to={item.url}>{item.title}</Link>
-                              </h3>
-                            </div>
-                          </div>
-                        </li>
-                      ))}
-                      {/* recent blog part end */}
                     </ul>
                   </div>
                 </div>

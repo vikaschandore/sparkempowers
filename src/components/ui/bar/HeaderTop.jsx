@@ -8,12 +8,12 @@ const headerList = [
   {
     icon: "flaticon-gmail-logo",
     name: "contact@sparkempowers.com",
-    url: "mailto:contact@sparkempowers.com",
+    url: "contact@sparkempowers.com",
   },
   {
     icon: "flaticon-call",
     name: "+91 (960) 473 5196",
-    url: "tel:+919604735196",
+    url: "+919604735196",
   },
 ];
 
@@ -32,7 +32,17 @@ export default function HeaderTop() {
                   </div>
                   {item.url ? (
                     <p>
-                      <Link href={item.url}>{item.name}</Link>
+                      <a
+                        href={
+                          item.url.includes("@")
+                            ? `mailto:${item.url}`
+                            : item.url.startsWith("+")
+                            ? `tel:${item.url}`
+                            : item.url
+                        }
+                      >
+                        {item.name}
+                      </a>
                     </p>
                   ) : (
                     <p>{item.name}</p>
@@ -47,24 +57,40 @@ export default function HeaderTop() {
             <div className="header-social-links">
               <ul>
                 <li>
-                  <Link href="/">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-facebook-f" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/">
+                  <a
+                    href="https://linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-linkedin-in" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-twitter" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-instagram" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

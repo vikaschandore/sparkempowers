@@ -3,20 +3,20 @@ import CountUp from "react-countup";
 const counter_info = [
   {
     icon: "flaticon-management",
-    count: 200,
+    count: 8,
     type: "+",
     text: "Team Member",
   },
   {
     icon: "flaticon-completed-task",
-    count: 25,
-    type: "K+",
+    count: 200,
+    type: "+",
     text: "Complete Project",
   },
   {
     icon: "flaticon-handshake",
-    count: 18,
-    type: "K+",
+    count: 100,
+    type: "+",
     text: "Client Review",
   },
 ];

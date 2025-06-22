@@ -19,7 +19,7 @@ export const social_links = [
 
 export const service_links = [
     {
-        name: "Web & CMS Development",
+        name: "Web Development",
         url: "/service-details",
     },
     {
@@ -50,16 +50,12 @@ export const useful_links = [
         url: "/about",
     },
     {
-        name: "Our Team",
-        url: "/team",
+        name: "Our Services",
+        url: "/services",
     },
     {
         name: "Our Projects",
         url: "/projects",
-    },
-    {
-        name: "Faq ask",
-        url: "/faqs",
     },
     {
         name: "Contact Us",

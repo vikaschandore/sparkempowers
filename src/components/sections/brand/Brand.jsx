@@ -21,12 +21,12 @@ export default function Brand() {
     <section className="brand-sec sec-ptb bg-green">
       <div className="container">
         <div className="row">
-          <div className="offset-md-2 col-md-8 offset-lg-4 col-lg-4">
-            <div className="sec-content text-center mb-5">
-              <h5 className="brand-text">
-                We have more than <span>270+</span> Happy Customers with
-                satisfaction
-              </h5>
+          <div className="innerCustomerSatisfactionWr">
+            <div className="sec-content mb-5">
+              <h6 class="sec-sub-title">Proven Results. Happy Clients.</h6>
+              <h2 className="sec-title">
+                Trusted by 270+ Satisfied Clients
+              </h2>
             </div>
           </div>
         </div>
