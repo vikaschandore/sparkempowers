@@ -48,23 +48,18 @@ export default function About() {
               </p>
               <ul className="sec-list-item">
                 <li>
-                  <i className="fa-solid fa-square-check" />
                   Custom Website Design & Development
                 </li>
                 <li>
-                  <i className="fa-solid fa-square-check" />
                   E-Commerce Development
                 </li>
                 <li>
-                  <i className="fa-solid fa-square-check" />
                   Artificial Intelligence and Automation
                 </li>
                 <li>
-                  <i className="fa-solid fa-square-check" />
                   Web Applications & Portals
                 </li>
                 <li>
-                  <i className="fa-solid fa-square-check" />
                   API & Third-Party Integrations
                 </li>
               </ul>

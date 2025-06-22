@@ -36,19 +36,19 @@ export const services_2 = [
         imgUrl: "/images/service/Digital-Marketing.jpg",
         icon: "flaticon-software-development",
         title: "Digital Marketing",
-        brief: "We help you reach the right audience through smart digital strategies, SEO, and social media promotions that drive results.",
+        brief: "We help you reach the right audience with digital strategies, SEO, and social media promotions that deliver results.",
     },
     {
         imgUrl: "/images/service/e-Commerce-Development.jpg",
         icon: "flaticon-content-management",
         title: "e-Commerce Development",
-        brief: "We design seamless e-commerce stores with secure payment gateways and smooth user experience to boost your online sales.",
+        brief: "We design seamless e-commerce stores with secure payments and smooth UX to boost online sales.",
     },
     {
         imgUrl: "/images/service/Virtual-Assistance.jpg",
         icon: "flaticon-bullhorn",
         title: "Virtual Assistance",
-        brief: "Our skilled virtual assistants manage your daily tasks, scheduling, and customer support to save your valuable time.",
+        brief: "Our skilled virtual assistants handle tasks, scheduling, and support to save your valuable time.",
     },
     {
         imgUrl: "/images/service/Graphics-&-Motion-Design.jpg",
@@ -217,35 +217,29 @@ export const prices = [
 
 export const testimonials = [
     {
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        imgUrl: "/images/testimonial/tc1.png",
+        imgUrl: "/images/team/team-info2.png",
+        name: "Beck Burke",
+        title: "Entrepreneur",
+        description: `“Spark Empowers delivered a creative, high-quality website with outstanding detail and service. Their team exceeded my expectations. I highly recommend them for anyone seeking expert design solutions.”`,
     },
     {
-        name: "Arush Aggarwal",
-        title: "Senior Manager",
-        imgUrl: "/images/testimonial/tc2.png",
+        imgUrl: "/images/team/team-info4.png",
+        name: "Liam Carter",
+        title: "Manager",
+        description: `“The Spark Empowers team transformed my ideas into a stunning site. Their design skill and precision were top-notch. I'm very satisfied and highly recommend their services.”`,
     },
     {
-        name: "Rosy Flower Gaggero",
-        title: "Ceo And Founder",
-        imgUrl: "/images/testimonial/tc3.png",
+        imgUrl: "/images/team/team-info3.png",
+        name: "Natalie Pierce",
+        title: "CEO Brand",
+        description: `“Spark Empowers impressed me with their design quality and client focus. The final result was clean, professional, and exceeded my expectations. I’d gladly work with them again.”`,
     },
     {
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        imgUrl: "/images/testimonial/tc1.png",
-    },
-    {
-        name: "Arush Aggarwal",
-        title: "Senior Manager",
-        imgUrl: "/images/testimonial/tc2.png",
-    },
-    {
-        name: "Rosy Flower Gaggero",
-        title: "Ceo And Founder",
-        imgUrl: "/images/testimonial/tc3.png",
-    },
+        imgUrl: "/images/team/team-info1.png",
+        name: "Alyssa Hart",
+        title: "Blogger",
+        description: `“It was a pleasure working with Spark Empowers. They perfectly captured my brand and delivered a beautiful, functional website that I'm proud to share with my audience.”`,
+    }
 ];
 
 export const testimonials_2 = [
@@ -279,41 +273,29 @@ export const testimonials_2 = [
 
 export const testimonials_3 = [
     {
-        imgUrl: "/images/testimonial/tcst1.png",
-        name: "Brian Dee",
-        title: "Owner & Ceo",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+        imgUrl: "/images/team/team-info2.png",
+        name: "Beck Burke",
+        title: "Entrepreneur",
+        description: `“Spark Empowers delivered a creative, high-quality website with outstanding detail and service. Their team exceeded my expectations. I highly recommend them for anyone seeking expert design solutions.”`,
     },
     {
-        imgUrl: "/images/testimonial/tcst2.png",
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+        imgUrl: "/images/team/team-info4.png",
+        name: "Liam Carter",
+        title: "Manager",
+        description: `“The Spark Empowers team transformed my ideas into a stunning site. Their design skill and precision were top-notch. I'm very satisfied and highly recommend their services.”`,
     },
     {
-        imgUrl: "/images/testimonial/tcst1.png",
-        name: "Brian Dee",
-        title: "Owner & Ceo",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+        imgUrl: "/images/team/team-info3.png",
+        name: "Natalie Pierce",
+        title: "CEO Brand",
+        description: `“Spark Empowers impressed me with their design quality and client focus. The final result was clean, professional, and exceeded my expectations. I’d gladly work with them again.”`,
     },
     {
-        imgUrl: "/images/testimonial/tcst2.png",
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
-    },
-    {
-        imgUrl: "/images/testimonial/tcst1.png",
-        name: "Brian Dee",
-        title: "Owner & Ceo",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
-    },
-    {
-        imgUrl: "/images/testimonial/tcst2.png",
-        name: "Joshua Liddell",
-        title: "Company Owner",
-        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
-    },
+        imgUrl: "/images/team/team-info1.png",
+        name: "Alyssa Hart",
+        title: "Blogger",
+        description: `“It was a pleasure working with Spark Empowers. They perfectly captured my brand and delivered a beautiful, functional website that I'm proud to share with my audience.”`,
+    }
 ];
 
 export const blogs = [

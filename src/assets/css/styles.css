@@ -324,6 +324,9 @@ h6 {
   font-size: 50px;
   line-height: 68px;
 }
+.innerCustomerSatisfactionWr h2, .innerCustomerSatisfactionWr .sec-sub-title{
+  color:#ffffff;
+}
 
 /*=============================
 	5. Thm Btn CSS
@@ -679,7 +682,7 @@ label {
 }
 #site-breadcumb .site-breadcumb-wrapper {
   background: rgba(22, 67, 67, 0.9);
-  padding: 280px 0 140px;
+  padding: 220px 0 60px;
 }
 
 .breadcumb-content {
@@ -1763,15 +1766,15 @@ label {
 .our-latest-services .sec-btn{
   margin-top: 30px;
 }
-.single-pricing .pricing-content ul.pricing-list li, .our-latest-services li {
+.single-pricing .pricing-content ul.pricing-list li, .our-latest-services li, .sec-content ul.sec-list-item li {
   position: relative;
   margin-bottom: 12px;
   padding-left: 28px;
 }
-.single-pricing .pricing-content ul.pricing-list li:last-child, .our-latest-services li:last-child{
+.single-pricing .pricing-content ul.pricing-list li:last-child, .our-latest-services li:last-child, .sec-content ul.sec-list-item li:last-child{
   margin-bottom: 0;
 }
-.single-pricing .pricing-content ul.pricing-list li::before,.our-latest-services li::before {
+.single-pricing .pricing-content ul.pricing-list li::before,.our-latest-services li::before, .sec-content ul.sec-list-item li::before {
   content: "";
   background: url(/images/logo/checked.svg);
   background-repeat: no-repeat;
