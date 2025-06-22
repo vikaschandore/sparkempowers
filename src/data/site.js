@@ -21,40 +21,40 @@ export const services = [
 
 export const services_2 = [
     {
-        imgUrl: "/images/service/service1.png",
+        imgUrl: "/images/service/Web-&-CMS-Development.jpg",
         icon: "flaticon-content-management",
-        title: "Content Management",
-        brief: "We focus on the best practices it solutions and for services.",
+        title: "Web & CMS Development",
+        brief: "We create fast, secure, and user-friendly websites with easy content management solutions to grow your online presence.",
     },
     {
-        imgUrl: "/images/service/service2.png",
+        imgUrl: "/images/service/Mobile-App-Development.jpg",
         icon: "flaticon-security",
-        title: "Information Security",
-        brief: "We focus on the best practices it solutions and for services.",
+        title: "Mobile App Development",
+        brief: "We build powerful, scalable, and intuitive mobile applications to keep your business in everyone’s pocket.",
     },
     {
-        imgUrl: "/images/service/service3.png",
+        imgUrl: "/images/service/Digital-Marketing.jpg",
         icon: "flaticon-software-development",
-        title: "Software Development",
-        brief: "We focus on the best practices it solutions and for services.",
-    },
-    {
-        imgUrl: "/images/service/service7.png",
-        icon: "flaticon-content-management",
-        title: "Content Management",
-        brief: "We focus on the best practices it solutions and for services.",
-    },
-    {
-        imgUrl: "/images/service/service8.png",
-        icon: "flaticon-bullhorn",
         title: "Digital Marketing",
-        brief: "We focus on the best practices it solutions and for services.",
+        brief: "We help you reach the right audience through smart digital strategies, SEO, and social media promotions that drive results.",
     },
     {
-        imgUrl: "/images/service/service9.png",
+        imgUrl: "/images/service/e-Commerce-Development.jpg",
+        icon: "flaticon-content-management",
+        title: "e-Commerce Development",
+        brief: "We design seamless e-commerce stores with secure payment gateways and smooth user experience to boost your online sales.",
+    },
+    {
+        imgUrl: "/images/service/Virtual-Assistance.jpg",
+        icon: "flaticon-bullhorn",
+        title: "Virtual Assistance",
+        brief: "Our skilled virtual assistants manage your daily tasks, scheduling, and customer support to save your valuable time.",
+    },
+    {
+        imgUrl: "/images/service/Graphics-&-Motion-Design.jpg",
         icon: "flaticon-technical-support",
-        title: "Tech Support Pro",
-        brief: "We focus on the best practices it solutions and for services.",
+        title: "Graphics & Motion Design",
+        brief: "We create stunning visuals and engaging motion graphics that bring your brand stories to life with creativity and impact.",
     },
 ];
 
@@ -87,34 +87,40 @@ export const services_3 = [
 
 export const projects = [
     {
-        imgUrl: "/images/project/project1.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/shanyascans.jpg",
+        title: "Shanya Scans",
+        category: "React.js",
+        path: "/shanya-scans",
     },
     {
-        imgUrl: "/images/project/project2.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/runwayroguebeauty.jpg",
+        title: "Runway Rogue Beauty",
+        category: "Shopify",
+        path: "/runway-rogue-beauty",
     },
     {
-        imgUrl: "/images/project/project3.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/camileandstone.jpg",
+        title: "Camile and Stone",
+        category: "Shopify",
+        path: "/camile-and-stone",
     },
     {
-        imgUrl: "/images/project/project1.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/royalfoodstuffs.jpg",
+        title: "Royal Food Stuffs",
+        category: "WordPress",
+        path: "/royal-food-stuffs",
     },
     {
-        imgUrl: "/images/project/project2.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/lucknowarchitects.jpg",
+        title: "Lucknow Architects",
+        category: "JavaScript",
+        path: "/lucknow-architects",
     },
     {
-        imgUrl: "/images/project/project3.png",
-        title: "Project Development",
-        category: "It Management",
+        imgUrl: "/images/project/pristinegroups.jpg",
+        title: "Pristine Groups",
+        category: "React.js",
+        path: "/pristine-groups",
     },
 ];
 
@@ -245,7 +251,7 @@ export const testimonials = [
 export const testimonials_2 = [
     {
         description: `“Iqbal is fantastic, he understood our requirements in no time and delivered results right on our expectations. He was supportive all through the engagement.”`,
-        name: "Joshua Liddell",
+        name: "Emily Carter",
         title: "Company Owner",
         imgUrl: "/images/testimonial/tc1.png",
     },
