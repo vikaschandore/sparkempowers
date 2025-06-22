@@ -8,16 +8,7 @@ export default [
   },
   {
     name: "Services",
-    dropdown: [
-      {
-        name: "Services",
-        url: "/services",
-      },
-      {
-        name: "Service Details",
-        url: "/service-details",
-      },
-    ],
+    url: "/services",
   },
   {
     name: "Projects",
@@ -25,12 +16,7 @@ export default [
   },
   {
     name: "Blog",
-    dropdown: [
-      {
-        name: "Blog",
-        url: "/blog",
-      }
-    ],
+    url: "/blog",
   },
   {
     name: "Contact",
