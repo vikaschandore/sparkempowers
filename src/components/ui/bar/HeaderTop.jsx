@@ -25,6 +25,7 @@ export default function HeaderTop() {
         <div className="main-header-one__top-left">
           <div className="header-contact-info">
             <ul>
+              {headerList}
               {headerList?.map((item, i) => (
                 <li key={i}>
                   <div className="icon-box">
