@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const headerList = [
   {
     icon: "flaticon-maps-and-flags",
-    name: "Indore, Madhya Pradesh, India",
+    name: "Pune, Maharashtra, India",
   },
   {
     icon: "flaticon-gmail-logo",
@@ -25,6 +25,7 @@ export default function HeaderTop() {
         <div className="main-header-one__top-left">
           <div className="header-contact-info">
             <ul>
+              {headerList}
               {headerList?.map((item, i) => (
                 <li key={i}>
                   <div className="icon-box">

@@ -20,41 +20,8 @@ export default [
     ],
   },
   {
-    name: "Pages",
-    dropdown: [
-      {
-        name: "Team",
-        url: "/team",
-      },
-      {
-        name: "Team Details",
-        url: "/team-details",
-      },
-      {
-        name: "Projects",
-        url: "/projects",
-      },
-      {
-        name: "Project Details",
-        url: "/project-details",
-      },
-      {
-        name: "Testimonials",
-        url: "/testimonials",
-      },
-      {
-        name: "Price Plan",
-        url: "/price-plan",
-      },
-      {
-        name: "FAQ",
-        url: "/faqs",
-      },
-      {
-        name: "404",
-        url: "/404",
-      },
-    ],
+    name: "Projects",
+    url: "/projects",
   },
   {
     name: "Blog",
@@ -62,11 +29,7 @@ export default [
       {
         name: "Blog",
         url: "/blog",
-      },
-      {
-        name: "Blog Details",
-        url: "/blog-details",
-      },
+      }
     ],
   },
   {
