@@ -2,18 +2,23 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const brands = [
-  "/images/brand/WellWalla_developed_by_Spark_Empowers.png",
-  "/images/brand/Sunirm_Digital_Technology_developed_by_Spark_Empowers.png",
-  "/images/brand/Rakesh_Kurra_developed_by_Spark_Empowers.png",
-  "/images/brand/Hulara_developed_by_Spark_Empowers.png",
-  "/images/brand/Keyfalcon_Solutions_developed_by_Spark_Empowers.png",
-  "/images/brand/The_Shunya_Foundation_developed_by_Spark_Empowers.png",
-  "/images/brand/WellWalla_developed_by_Spark_Empowers.png",
-  "/images/brand/Sunirm_Digital_Technology_developed_by_Spark_Empowers.png",
-  "/images/brand/Rakesh_Kurra_developed_by_Spark_Empowers.png",
-  "/images/brand/Hulara_developed_by_Spark_Empowers.png",
-  "/images/brand/Keyfalcon_Solutions_developed_by_Spark_Empowers.png",
-  "/images/brand/The_Shunya_Foundation_developed_by_Spark_Empowers.png",
+  "/images/brand/website-logo1.jpg",
+  "/images/brand/website-logo2.jpg",
+  "/images/brand/website-logo3.jpg",
+  "/images/brand/website-logo4.jpg",
+  "/images/brand/website-logo5.jpg",
+  "/images/brand/website-logo6.jpg",
+  "/images/brand/website-logo7.jpg",
+  "/images/brand/website-logo8.jpg",
+  "/images/brand/website-logo9.jpg",
+  "/images/brand/website-logo10.jpg",
+  "/images/brand/website-logo12.jpg",
+  "/images/brand/website-logo13.jpg",
+  "/images/brand/website-logo14.jpg",
+  "/images/brand/website-logo15.jpg",
+  "/images/brand/website-logo16.jpg",
+  "/images/brand/website-logo18.jpg",
+  "/images/brand/website-logo19.jpg",
 ];
 
 export default function Brand() {

@@ -1817,6 +1817,7 @@ label {
 
 .brand-slider .item img {
   width: inherit;
+  border-radius: 15px;
 }
 
 /*=============================
