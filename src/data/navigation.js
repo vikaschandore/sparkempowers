@@ -14,10 +14,10 @@ export default [
     name: "Projects",
     url: "/projects",
   },
-  {
-    name: "Blog",
-    url: "/blog",
-  },
+  // {
+  //   name: "Blog",
+  //   url: "/blog",
+  // },
   {
     name: "Contact",
     url: "/contact",

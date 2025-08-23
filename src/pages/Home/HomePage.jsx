@@ -22,7 +22,7 @@ export default function HomePage() {
       <Business />
       <Brand />
       <Testimonial />
-      <LatestBlog bg_color="bg-light-greem" />
+      {/* <LatestBlog bg_color="bg-light-greem" /> */}
     </>
   );
 }
